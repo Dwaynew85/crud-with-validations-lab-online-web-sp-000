@@ -1,4 +1,5 @@
 class SongsController < ApplicationController
+<<<<<<< HEAD
   def index
     @songs = Song.all
   end
@@ -46,4 +47,7 @@ class SongsController < ApplicationController
       :title, :release_year, :released, :genre, :artist_name
     )
   end
+=======
+
+>>>>>>> fd63f8f1b0c163b2cb40e0d04b5c415049d6f0d7
 end
