@@ -4,5 +4,5 @@ class Song < ApplicationRecord
     if: :released?
   validates :release_year, presence: true,
     if: :released?
-  validates :release_year, inclusion: { in: Date.today.year }
+  # validates :release_year, inclusion: { in: Date.today.year }
 end
