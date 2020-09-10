@@ -1,5 +1,4 @@
 class SongsController < ApplicationController
-<<<<<<< HEAD
   def index
     @songs = Song.all
   end
